@@ -1,0 +1,17 @@
+.about-us__description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us__description-text {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-family: var(--font-fam-inter);
+    font-weight: 400;
+    font-size: 1.2rem;
+
+    color: var(--dark-blue-font-color);
+  }
+}

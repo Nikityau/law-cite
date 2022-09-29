@@ -1,0 +1,13 @@
+.about-us__banner_top_left_tongue {
+  &:before {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border-left: 70px solid #fff;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+  }
+}
