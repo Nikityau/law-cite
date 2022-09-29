@@ -12,6 +12,7 @@ const AppRouter = () => {
                 <Route index path={APP_ROUTER_PATH_HOME} element={<HomePage/>}/>
 
                 <Route path={'/'} element={<Navigate to={APP_ROUTER_PATH_HOME}/>}/>
+                <Route path={'*'} element={'404'}/>
             </Routes>
         </BrowserRouter>
     );
