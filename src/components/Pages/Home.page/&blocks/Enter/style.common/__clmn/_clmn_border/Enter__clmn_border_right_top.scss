@@ -1,0 +1,12 @@
+.enter__clmn_border_right_top {
+  &:before {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    border-left: 20px solid transparent;
+    border-top: 100px solid #fff;
+  }
+}

@@ -1,0 +1,35 @@
+.enter-block__text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  .enter-block__text-title {
+    max-width: 572px;
+
+    h1 {
+      font-family: var(--font-fam-montserrat);
+      font-weight: 600;
+      font-size: 3.25rem;
+
+      color: var(--dark-blue-font-color);
+    }
+  }
+  .enter-block__text-subtitle {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    max-width: 572px;
+
+    h3 {
+      font-family: var(--font-fam-inter);
+      font-weight: 400;
+      font-size: 1.3rem;
+
+      color: var(--dark-blue-font-color)
+    }
+  }
+  .enter-block__text-services-btn {
+
+  }
+}

@@ -1,1 +1,5 @@
 export const APP_ROUTER_PATH_HOME = '/home'
+export const APP_ROUTER_PATH_SERVICES = '/services'
+export const APP_ROUTER_PATH_LOGIN = '/login'
+export const APP_ROUTER_PATH_CONSULT = '/consult'
+export const APP_ROUTER_PATH_REVIEWS = '/reviews'
