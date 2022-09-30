@@ -18,18 +18,16 @@ const Home = NavHOC(<HomePage/>)
 const AppRouter = () => {
 
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route index path={APP_ROUTER_PATH_HOME} element={<Home/>}/>
-                <Route index path={APP_ROUTER_PATH_SERVICES} element={'services'}/>
-                <Route index path={APP_ROUTER_PATH_LOGIN} element={'login'}/>
-                <Route index path={APP_ROUTER_PATH_REVIEWS} element={'reviews'}/>
-                <Route index path={APP_ROUTER_PATH_CONSULT} element={'consult'}/>
+        <Routes>
+            <Route index path={APP_ROUTER_PATH_HOME} element={<Home/>}/>
+            <Route index path={APP_ROUTER_PATH_SERVICES} element={'services'}/>
+            <Route index path={APP_ROUTER_PATH_LOGIN} element={'login'}/>
+            <Route index path={APP_ROUTER_PATH_REVIEWS} element={'reviews'}/>
+            <Route index path={APP_ROUTER_PATH_CONSULT} element={'consult'}/>
 
-                <Route path={'/'} element={<Navigate to={APP_ROUTER_PATH_HOME}/>}/>
-                <Route path={'*'} element={'404'}/>
-            </Routes>
-        </BrowserRouter>
+            <Route path={'/'} element={<Navigate to={APP_ROUTER_PATH_HOME}/>}/>
+            <Route path={'*'} element={'404'}/>
+        </Routes>
     );
 };
 

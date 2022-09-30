@@ -12,7 +12,9 @@ import 'ui/UI.Kit.Styles/ui.styles/el_y_down_60.scss'
 
 const Contacts = () => {
     return (
-        <article className={'contacts el_padding_side_100'}>
+        <article className={'contacts el_padding_side_100'}
+            id={'contacts'}
+        >
             <div className={'contacts__title'}>
                 <h2>Контакты</h2>
             </div>

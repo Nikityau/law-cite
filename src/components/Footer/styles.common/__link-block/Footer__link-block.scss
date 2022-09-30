@@ -1,0 +1,31 @@
+.footer__link-block {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  .footer__t-link, .footer__sub-link-container {
+    a {
+      span {
+        font-family: var(--font-fam-inter);
+        font-weight: 400;
+        font-size: 2rem;
+
+        color: var(--white-font-color);
+      }
+    }
+  }
+
+  .footer__sub-link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    a {
+      span {
+        font-size: 1rem;
+
+        color: rgba(255, 255, 255, 0.75);;
+      }
+    }
+  }
+}

@@ -12,7 +12,7 @@ import './style.common/__question/_btn/Questions__question_btn_close.scss'
 
 const Questions = () => {
     return (
-        <article className={'questions el_padding_side_100'}>
+        <article className={'questions el_padding_side_100'} id={'answers'}>
             <div className={'questions__title'}>
                 <h2>Ответы на вопросы</h2>
             </div>

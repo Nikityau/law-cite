@@ -8,11 +8,11 @@ import './style.common/__description/AboutUs__dsecription.scss'
 import './style.common/__banner/AboutUs__banner.scss'
 import './style.common/__banner/_top_left_tongue/AboutUs__banner_top_left_tongue.scss'
 
-import '../../../../UI/UI.Kit.Styles/ui.styles/font_motserrat_600.scss'
+import 'ui/UI.Kit.Styles/ui.styles/font_motserrat_600.scss'
 
 const AboutUs = () => {
     return (
-        <article className={'about-us el_padding_side_100'}>
+        <article className={'about-us el_padding_side_100'} id={'about-us'}>
             <AboutUs__description/>
             <AboutUs__banner/>
         </article>

@@ -1,0 +1,30 @@
+.footer__soc-nets {
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+
+  .footer__link-wrapper {
+
+  }
+
+  .footer__nets {
+    display: flex;
+    gap: 23px;
+
+    a:nth-child(1) {
+      img {
+        width: 2.5rem;
+      }
+    }
+    a:nth-child(2) {
+      img {
+        width: 2.2rem;
+      }
+    }
+    a:nth-child(3) {
+      img {
+        width: 2.5rem;
+      }
+    }
+  }
+}
