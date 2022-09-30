@@ -1,0 +1,21 @@
+.services-page__title-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  h1 {
+    font-family: var(--font-fam-montserrat);
+    font-weight: 600;
+    font-size: 3rem;
+
+    color: var(--dark-blue-font-color);
+  }
+  p {
+    font-family: var(--font-fam-inter);
+    font-weight: 400;
+    font-size: 1.4rem;
+
+    color: rgba(25, 34, 82, 0.58);
+  }
+}

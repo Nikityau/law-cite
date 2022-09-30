@@ -1,0 +1,13 @@
+.services-page {
+  min-height: 50vh;
+
+  padding: 50px 0 100px;
+
+  .services-page__inner-container {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+  }
+}
