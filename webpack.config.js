@@ -21,7 +21,7 @@ module.exports = {
             src: srcPath,
             components: path.join(srcPath , 'components'),
             api: path.join(srcPath, 'api'),
-            ui: path.join(srcPath, 'UI'),
+            ui: path.join(srcPath, 'components', 'UI'),
             assets: path.join(srcPath, 'assets'),
             utils: path.join(srcPath, 'utils'),
         }

@@ -1,0 +1,18 @@
+.input-ui {
+  min-width: 438px;
+
+  font-family: var(--font-fam-inter);
+  font-weight: 400;
+  font-size: 1.8rem;
+
+  color: var(--dark-blue-font-color);
+
+  border: unset;
+  outline: unset;
+
+  transition: font-size .3s;
+}
+
+.input-ui:focus {
+  font-size: 1.6rem;
+}
