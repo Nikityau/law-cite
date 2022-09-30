@@ -6,6 +6,7 @@ import Enter from "components/Pages/Home.page/&blocks/Enter/Enter";
 import AboutUs from "components/Pages/Home.page/&blocks/AboutUs/AboutUs";
 import Services from "components/Pages/Home.page/&blocks/Services/Services";
 import Contacts from "components/Pages/Home.page/&blocks/Contacts/Contacts";
+import Questions from "components/Pages/Home.page/&blocks/Questions/Questions";
 
 import './styles.common/Home.page.scss'
 
@@ -18,6 +19,7 @@ const HomePage = () => {
                 <AboutUs/>
                 <Services/>
                 <Contacts/>
+                <Questions/>
             </main>
             <Footer/>
         </div>
