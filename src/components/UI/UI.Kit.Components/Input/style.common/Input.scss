@@ -1,3 +1,9 @@
+.input-ui-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .input-ui {
   min-width: 438px;
 
@@ -15,4 +21,21 @@
 
 .input-ui:focus {
   font-size: 1.6rem;
+}
+
+.input-ui__error {
+  font-size: 1.2rem;
+  font-family: var(--font-fam-inter);
+
+  color: #b01111;
+
+  transition: opacity .3s;
+}
+
+.input-ui_no_error {
+  opacity: 0;
+}
+
+.input-ui_error_invoke {
+  opacity: 1;
 }

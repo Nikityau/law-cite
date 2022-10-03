@@ -4,9 +4,13 @@ import ConsultForm from "ui/UI.Kit.Components/ConsultForm/ConsultForm";
 
 const ContactsForm = () => {
 
+    const onSubmit = () => {
+
+    }
+
     return (
         <div className={'contacts__form-consult'}>
-            <ConsultForm/>
+            <ConsultForm onSubmit={onSubmit}/>
         </div>
     );
 };
