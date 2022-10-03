@@ -3,7 +3,7 @@ import React from 'react';
 import  { servicesArr } from './Services__services.preset'
 import Services__serviceCard from "components/Pages/Services.page/__service-card/Services__service-card";
 
-const ServicesServices = () => {
+const ServicesServices = ({ onServiceClickHandler }) => {
 
     return (
         <div className={'services-page__services-container'}>
@@ -12,6 +12,7 @@ const ServicesServices = () => {
                     <Services__serviceCard
                         key={index}
                         service={service}
+                        onBtnClickHandler={onServiceClickHandler}
                     />
                 )
             }

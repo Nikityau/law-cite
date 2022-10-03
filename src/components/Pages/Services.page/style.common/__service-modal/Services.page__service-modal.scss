@@ -6,7 +6,76 @@
   width: 50%;
   height: 100vh;
 
-  transform: translate(0,0);
+  transform: translate(0, 0);
 
   background: #7A7F9B;
+}
+
+.service-modal {
+  padding: 80px 50px;
+
+  .service-modal__go-back-btn {
+    button {
+      background: unset;
+      border: unset;
+
+      font-family: var(--font-fam-inter);
+      font-weight: 400;
+      font-size: 1rem;
+
+      color: #E9EBEC;
+
+      text-decoration: underline;
+    }
+  }
+
+  .service-modal__service-title,
+  .service-modal__service-description,
+  .service-modal__spec-btns
+  {
+    max-width: 70%;
+
+    margin-top: 77px;
+
+    h3 {
+      font-family: var(--font-fam-inter);
+      font-weight: 400;
+      font-size: 2.5rem;
+
+      color: #fff;
+    }
+  }
+
+  .service-modal__service-description {
+    margin-top: 25px;
+
+    p {
+      font-family: var(--font-fam-inter);
+      font-weight: 400;
+      font-size: 1.5rem;
+
+      color: rgba(255, 255, 255, 0.6);
+
+      text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.19);
+    }
+  }
+
+  .service-modal__spec-btns {
+    margin-top: 36px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    .service-modal__btn {
+      font-family: var(--font-fam-inter);
+      font-weight: 700;
+
+      border: unset;
+
+      background: #fff;
+
+      color: #797C8C;
+    }
+  }
 }

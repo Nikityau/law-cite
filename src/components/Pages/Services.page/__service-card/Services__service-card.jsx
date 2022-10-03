@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ServicesServiceCard = ({ service }) => {
+const ServicesServiceCard = ({ service, onBtnClickHandler }) => {
 
     const clickHandler = () => {
-
+        onBtnClickHandler(service)
     }
 
     return (
