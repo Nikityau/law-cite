@@ -1,0 +1,43 @@
+.consult-page {
+
+  .consult-page__container {
+    padding: 80px 0 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 80px;
+
+    .consult-page__title {
+      display: flex;
+      flex-direction: column;
+      gap: 44px;
+      align-items: center;
+
+      h1 {
+        font-family: var(--font-fam-montserrat);
+        font-weight: 600;
+        font-size: 3.5rem;
+
+        color: var(--dark-blue-font-color);
+      }
+
+      p {
+        max-width: 800px;
+
+        text-align: center;
+
+        font-family: var(--font-fam-inter);
+        font-weight: 400;
+        font-size: 1.5rem;
+
+        color: rgba(25, 34, 82, 0.58);
+      }
+    }
+
+    .consult-page__form-container {
+      max-width: 450px;
+    }
+  }
+}
