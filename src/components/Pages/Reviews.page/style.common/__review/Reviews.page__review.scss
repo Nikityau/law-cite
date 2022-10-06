@@ -1,0 +1,45 @@
+.reviews-page__review-block {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .reviews-page__reviewer-image {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .reviews-page__review {
+    width: 65%;
+
+    blockquote {
+      text-align: center;
+
+      font-family: var(--font-fam-inter);
+      font-weight: 400;
+      font-size: 1.2rem;
+
+      color: rgba(25, 34, 82, 0.58);
+    }
+  }
+
+  .reviews-page__reviewer-full-name {
+    span {
+      font-family: var(--font-fam-inter);
+      font-weight: 500;
+      font-size: 1rem;
+
+      color: var(--dark-blue-font-color);
+    }
+  }
+}

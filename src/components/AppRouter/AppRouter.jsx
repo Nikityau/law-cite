@@ -14,6 +14,7 @@ import {
 import NavHOC from "components/Utils.Components/Nav.HOC";
 import ServicesPage from "components/Pages/Services.page/Services.page";
 import ConsultPage from "components/Pages/Consult.page/Consult.page";
+import ReviewsPage from "components/Pages/Reviews.page/Reviews.page";
 
 const Home = NavHOC(<HomePage/>)
 const Services = NavHOC(<ServicesPage/>)
@@ -25,7 +26,7 @@ const AppRouter = () => {
             <Route index path={APP_ROUTER_PATH_HOME} element={<Home/>}/>
             <Route index path={APP_ROUTER_PATH_SERVICES} element={<Services/>}/>
             <Route index path={APP_ROUTER_PATH_LOGIN} element={'login'}/>
-            <Route index path={APP_ROUTER_PATH_REVIEWS} element={'reviews'}/>
+            <Route index path={APP_ROUTER_PATH_REVIEWS} element={<ReviewsPage/>}/>
             <Route index path={APP_ROUTER_PATH_CONSULT} element={<ConsultPage/>}/>
 
             <Route path={'/'} element={<Navigate to={APP_ROUTER_PATH_HOME}/>}/>
