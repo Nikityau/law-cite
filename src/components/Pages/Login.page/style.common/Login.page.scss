@@ -1,0 +1,72 @@
+.login-page {
+  width: 100vw;
+
+  background: #797C8C;
+
+  .login-page__container {
+    padding: 50px 0 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 50px;
+
+    .login-page__company-title {
+
+    }
+
+    .login-page__form-container {
+      width: 528px;
+      min-height: 552px;
+
+      background: #fff;
+      box-shadow: 0px 0px 26.9617px 2.24681px rgba(44, 45, 62, 0.28);
+      border-radius: 14px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .login-page__form-title {
+        h3 {
+          font-family: var(--font-fam-montserrat);
+          font-weight: 600;
+          font-size: 2rem;
+
+          color: var(--dark-blue-font-color);
+        }
+      }
+
+      .login-page__form {
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 50px;
+
+          .login-page__form-btn-sub {
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+    }
+
+    .login-page__switch-btn {
+      button {
+        font-family: var(--font-fam-montserrat);
+        font-weight: 400;
+        font-size: 1rem;
+
+        color: #fff;
+
+        background: unset;
+        border: unset;
+        outline: unset;
+
+        cursor: pointer;
+      }
+    }
+  }
+}

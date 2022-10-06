@@ -1,0 +1,19 @@
+.input-login-ui {
+  font-family: var(--font-fam-montserrat);
+  font-weight: 400;
+  font-size: 1.1rem;
+
+  padding: 10px 5px;
+
+  outline: unset;
+  border: unset;
+
+  color: #fff;
+
+  background: #797C8C;
+  border-radius: 12px;
+
+  &::placeholder {
+    color: #fff;
+  }
+}
